@@ -1,0 +1,29 @@
+.header_ul {
+  justify-content: flex-end;
+  margin-right: -7%;
+}
+
+.header_li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  list-style-type: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+li:nth-child(2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header_li:hover {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  header {
+    display: none;
+  }
+}

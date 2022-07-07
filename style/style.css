@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: darkgrey;
+}
+p {
+  margin: 0;
+}
+
+.ml-148 {
+  margin-left: 148px;
+}
+
+.mr-148 {
+  margin-right: 148px;
+}
+
+.flex {
+  display: flex;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.container {
+  margin-left: 15%;
+
+  margin-right: 15%;
+}
+
+.fd-cr {
+  flex-direction: column-reverse;
+}
